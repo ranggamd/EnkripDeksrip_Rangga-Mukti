@@ -5,8 +5,8 @@ text = string.printable
 def enkripsi(isi):
     global text
 
-    key = int(input("Masukan Sandi : "))
-    cipher = ""
+    key = int(input("Buat Sandi : "))
+    cipher = "Hasil Pesan Enkripsi : "
     for i in isi:
         if i in text:
             k = text.find(i)
@@ -38,8 +38,9 @@ if __name__ == "__main__":
     if mode == 1:
         isi = input("Masukan Isi Pesan :")
         print(enkripsi(isi))
+        print("\n#Jika ingin mengecek pesan yang sudah di enkripsi\ncopy hasil pesan yang sudah di enkripsi, pilih opsi dua1\nlalu masukan sandi yang sama")
     elif mode == 2:
-        cipher = input("Masukan Isi Pesan : ")
+        cipher = input("Masukan Pesan Enkripsi : ")
         print(deksripsi(cipher))
     else:
         print("MASUKAN PILIHAN ANDA!!")
