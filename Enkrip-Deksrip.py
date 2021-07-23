@@ -38,7 +38,7 @@ if __name__ == "__main__":
     if mode == 1:
         isi = input("Masukan Isi Pesan :")
         print(enkripsi(isi))
-        print("\n#Jika ingin mengecek pesan yang sudah di enkripsi\ncopy hasil pesan yang sudah di enkripsi, pilih opsi dua1\nlalu masukan sandi yang sama")
+        print("\n#Jika ingin mengecek pesan yang sudah di enkripsi\ncopy hasil pesan yang sudah di enkripsi, pilih opsi dua\nlalu masukan sandi yang sama")
     elif mode == 2:
         cipher = input("Masukan Pesan Enkripsi : ")
         print(deksripsi(cipher))
